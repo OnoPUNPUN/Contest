@@ -7,10 +7,10 @@ int main() {
     while (t--) {
         int n, a, b;
         cin >> n >> a >> b;
-        int odd_episodes = (n + 1) / 2;
-        int even_episodes = n / 2;
-        int total_duration = (odd_episodes * b) + (even_episodes * a);
-        cout << total_duration << endl;
+        int odd = (n + 1) / 2;
+        int even = n / 2;
+        int total = (odd * b) + (even * a);
+        cout << total << endl;
     }
     return 0;
 }
