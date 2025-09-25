@@ -10,7 +10,6 @@ int main() {
         string u;
         cin >> n >> u;
         string newString = "";
-        
         int i = 0;
         while(i < n) {
             char c = u[i];
@@ -22,7 +21,7 @@ int main() {
             if(occur % 2 == 1) {
                 newString += c;
             } else {
-                newString += c;
+                newString += c; //aabbbbb
                 newString += c;
             }
         }
